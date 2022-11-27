@@ -17,7 +17,7 @@
 
     equal.addEventListener('click', function(e){
         if (screen.value === ''){
-            screen.value = "0";
+            screen.value = "jefflaki";
         } else {
             let answer = eval(screen.value);
             screen.value = 'ans = ' + answer;
